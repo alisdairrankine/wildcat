@@ -1,0 +1,41 @@
+@import "reset";
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#widget-selector {
+    background-color: azure;
+}
+
+.widget-selector-widget {
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+.widget-selector-widget-icon {
+    height: 50px;
+    width: 150px;
+}
+
+#canvas {
+    border: 1px solid #333;
+    width: 1280px;
+    min-height: 720px;
+    margin: 20px auto;
+    overflow-x: hidden;
+
+}
+
+.canvas-widget {
+    border: 1px dashed #000;
+    margin: 2px;
+}
+
+.canvas-widget.selected {
+    border: 1px dashed lightgreen;
+}
